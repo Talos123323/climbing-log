@@ -37,7 +37,7 @@ def create_app(config_name="development"):
     def index():
         return jsonify(
             service="climbing-log",
-            docs="https://github.com/<you>/climbing-log",
+            docs="https://github.com/Talos123323/climbing-log",
             health="/api/health",
             api="/api/health",
         ), 200

@@ -11,7 +11,7 @@ gunicorn, Postgres in Docker Compose, SQLite for local dev.
 ## Quick start (Docker — the way a stranger should run it)
 
 ```bash
-git clone https://github.com/<you>/climbing-log.git
+git clone https://github.com/Talos123323/climbing-log.git
 cd climbing-log
 cp .env.example .env
 # Edit .env: set JWT_SECRET to a long random value and POSTGRES_PASSWORD.
