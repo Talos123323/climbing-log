@@ -7,5 +7,4 @@ from flask import Blueprint
 api_bp = Blueprint("api", __name__)
 
 # Imported for their side effect (route registration on api_bp).
-# Auth / profile / climbs / admin land on the feature branch.
-from . import health  # noqa: E402,F401
+from . import admin, auth, climbs, health, profile  # noqa: E402,F401
